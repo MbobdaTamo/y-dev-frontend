@@ -1,0 +1,55 @@
+.landingPage {
+    position: absolute; 
+    left: 0px;
+    top:0px;
+    width: 100%;
+}
+.lMain {
+    display: flex;
+    flex-direction: column;
+}
+.lMainF {
+    width: 100%;
+    background-image: linear-gradient(to bottom, #F6DDAD , white);
+    display: flex;
+}
+.lMainFLeft {
+    width: 35%;
+    margin-left: 100px;
+    margin-top: 50px;
+    display: flex;
+    flex-direction:column;
+}
+.lMainTitleBig {
+    font-weight: bold;
+    font-size: 60px;
+}
+.lMainTitleBig + span {
+    margin-top: 30px;
+    font-size: 16px;
+    width: 70%; 
+    font-weight: bold;
+}
+.lMainTitleBig + span + div {
+    margin-top: 25px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.lMainTitleBig + span + div img {
+    margin-left: 38px;
+    width: 38px;
+}
+.lMainFRight {
+    width: 65%; 
+    display: flex; justify-content: center;align-items: center;
+    font-size: 58px;
+    font-weight: bold;
+}
+
+
+/*--- second row of the fucking page --------------------*/
+.lMainSearch {
+    margin-top: 60px;
+    display: flex;justify-content: center;align-items: center;
+}
